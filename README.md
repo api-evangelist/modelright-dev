@@ -1,4 +1,4 @@
-# modelright-dev
+# ModelRight
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,17 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-modelright-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+ModelRight provides a live registry of AI model specifications, context window sizes, and per‑million‑token pricing across top providers. It offers rankings, comparisons, a cost calculator, and a public API for developers to integrate up‑to‑date model data into their applications and services.
 
-**Areas:** Company
+**Areas:** AI · Registry · Pricing · Models · OpenData
 
-## modelright-dev on APIs.io
+## ModelRight on APIs.io
 
-Everything profiled for modelright-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/modelright-dev/](https://apis.io/providers/modelright-dev/)** — or go straight to one of the APIs or properties below.
+Everything profiled for ModelRight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/modelright-dev/](https://apis.io/providers/modelright-dev/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (1)
 
-- [modelright API](https://apis.io/apis/modelright-dev/modelright-api/) — Live registry of AI model specifications, context windows, and per-1M-token pricing across providers.
+- [ModelRight Models API](https://apis.io/apis/modelright-dev/modelright-dev-models-api/) — The Models API from ModelRight — 1 operation(s) for models.
 
 ### Published properties
 
@@ -84,19 +84,25 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [modelright-dev Agentic Access](https://apis.io/agentic-access/modelright-dev/modelright-dev-agentic-access/)
+- [ModelRight Agentic Access](https://apis.io/agentic-access/modelright-dev/modelright-dev-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Model](https://apis.io/schemas/modelright-dev/modelright-dev-model/)
 
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
 
-- [modelright-dev API Rules](https://apis.io/rules/modelright-dev/modelright-dev-rules/)
+- [ModelRight API Rules](https://apis.io/rules/modelright-dev/modelright-dev-rules/)
 
 #### Security (1)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [modelright-dev Domain Security](https://apis.io/security/modelright-dev/modelright-dev-domain-security/)
+- [ModelRight Domain Security](https://apis.io/security/modelright-dev/modelright-dev-domain-security/)
 
 ## Where to find this API
 
@@ -106,22 +112,22 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 12.1** — emerging · rubric 0.28.0 · scored 2026-11-19
+**Kin Score 25.2** — emerging · rubric 0.28.0 · scored 2026-11-19
 
 | Facet | Score |
 |---|---|
-| Discoverability | 44.6 |
-| Contract quality | 0.0 |
-| Contract governance | 65.5 |
+| Discoverability | 61.7 |
+| Contract quality | 39.2 |
+| Contract governance | 79.1 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 6.4 |
 | Access clarity | 0.0 |
 
-**Agent readiness 15.0** — agent-aware
+**Agent readiness 27.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
+| Spec Presence | yes |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
@@ -140,11 +146,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
+| Pagination Ratio | — |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 4.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/modelright-dev/](https://apis.io/providers/modelright-dev/).
 
@@ -152,7 +158,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for modelright-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ModelRight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
